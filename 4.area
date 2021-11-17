@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+    int a,b,c;
+    // clrscr();
+    printf("Area of Ractangle\n");
+    printf("Enter length: ");
+    scanf("%d",&a);
+    printf("Enter width: ");
+    scanf("%d",&b);
+    c= a*b;
+    printf("Area: %d ",c);
+    return 0;
+    // getch();
+}
